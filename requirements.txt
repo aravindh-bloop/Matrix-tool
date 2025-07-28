@@ -1,0 +1,12 @@
+# Core Requirements
+numpy==1.26.4
+PyQt5==5.15.10
+PyQt5-sip==12.13.0
+
+# Optional (for additional functionality)
+scipy==1.13.0       # For advanced matrix operations
+matplotlib==3.8.3   # For visualization (eigenvalues, etc.)
+pandas==2.2.1       # For enhanced file I/O support
+
+# Platform-specific dependencies
+pyqt5-tools==5.15.9.3 ; platform_system=="Windows"
